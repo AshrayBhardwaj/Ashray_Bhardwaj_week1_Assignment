@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Startup Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(to right, #8171db, #48cdd1);
+            color: white;
+        }
+        .features, .team, .contact {
+            padding: 80px 20px;
+        }
+        .feature-card:hover, .team-card:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Future Fusion</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Innovate. Transform. Lead.</h1>
+            <p>Empowering businesses with cutting-edge technology.</p>
+            <a href="#contact" class="btn btn-primary">Get Started</a>
+        </div>
+    </section>
+
+    <section id="features" class="features text-center">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="row">
+                <div class="col-md-4 feature-card">
+                    <h4>AI Integration</h4>
+                    <p>Harnessing the power of AI for better decision-making.</p>
+                </div>
+                <div class="col-md-4 feature-card">
+                    <h4>Cloud Solutions</h4>
+                    <p>Scalable and secure cloud services for businesses.</p>
+                </div>
+                <div class="col-md-4 feature-card">
+                    <h4>24/7 Support</h4>
+                    <p>Reliable support anytime, anywhere.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team text-center bg-light">
+        <div class="container">
+            <h2>Meet Our Team</h2>
+            <div class="row">
+                <div class="col-md-4 team-card">
+                    <h5>Mithali Agarwal</h5>
+                    <p>CEO & Founder</p>
+                </div>
+                <div class="col-md-4 team-card">
+                    <h5>JRohan Shriwastava</h5>
+                    <p>CTO</p>
+                </div>
+                <div class="col-md-4 team-card">
+                    <h5>Anjali Sharma</h5>
+                    <p>Lead Developer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact text-center">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: info@futurefusion.com</p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
